@@ -18,7 +18,7 @@ class BaseRAGManager:
         self.chunks_dir = os.path.join(data_root, "debug", "chunks")
         
         # Adjust embedding model initialization as needed for your specific env
-        self.embedder = HuggingFaceEmbeddings(model_name="BAAI/bge-m3", model_kwargs={'device': 'cpu'})
+        self.embedder = HuggingFaceEmbeddings(model_name="BAAI/bge-large-zh-v1.5", model_kwargs={'device': 'cpu'})
         
         self.indices: Dict[str, FAISS] = {}
 
