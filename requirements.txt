@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+streamlit
+httpx
+python-dotenv
+langchain-core
+langchain-community
+faiss-cpu
+sentence-transformers
